@@ -1,0 +1,23 @@
+name: BowBot3
+description: Tutorial Plugin
+author: Rezenee
+version: 1.0
+main: mainPackage.Tutorial
+depend: [Citizens]
+
+commands:
+    start:
+        usage: /<start>
+        description: command
+    botadd:
+        usage: /<botadd>
+        description: command
+    botremove:
+        usage: /<botremove>
+        description: command
+    botset:
+        uasge: /<botset>
+        description: command
+    stop: 
+        usage: /<stop>
+        description: stops bots from spawning
